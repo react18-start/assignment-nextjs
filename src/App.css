@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+
+h4{
+  color: rgb(45, 45, 80);
+}
+
+.frame{
+  Width: 100vw;
+  height: 100vh;
+  background-image: url('./images/background.png') ;
+  color: #ffffff;
+  overflow-y: auto;
+  flex-wrap: wrap;
+}
+
+.header{
+  width: auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header p{
+  Width: 90px;
+  Height: 16px;
+  top: 33px;
+  margin-left: 92px;
+  color: #ffffff;
+}
+
+.drop-down{
+  position: relative;
+}
+.btn{
+  width: 120px;
+  height: 40px;
+  border-radius: 100px;
+  top: 33px;
+  margin-right: 92px;
+  border: 1px rgba(255, 255, 255, 0.46);
+  background-color: rgba(0, 37, 206, 1) ;
+  color: #ffffff;
+}
+
+.content{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cards {
+  padding-inline: 30px;
+}
+
+.content button{
+  width: 241px;
+  height: 39px;
+  top: 146px;
+  left: 840px;
+  border-radius: 20px;
+  border: 1px rgba(43, 53, 97, 1);
+  padding: 11px, 20px, 11px, 20px;
+  gap: 10px;
+  background-color: rgba(3, 6, 22, 1);
+  color: #ffffff;
+}
+
+
+.content .p3{
+  Font: Aeonik;
+  font-weight: 500;
+  font-size: 35px;
+  line-height :67.2px;
+  text-align: Center;
+}
+
+.content .p1{
+  display: inline;
+  top: 282px;
+  left: 406px;
+  font-style: Aeonik;
+  align-content: center;
+}
+
+.content .p2{
+  margin-top: 15px;
+}
+
+.content .border-line{
+  width: 100px;
+  margin-left: 46.5%;
+}
+
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.dropdown {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 200px;
+  margin-left: 15px;
+  background-color: rgba(9, 37, 48, 1);
+  border: 0.5px rgba(255, 255, 255, 1);
+  border-radius: 15px;
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown ul li {
+  margin-top: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+
+}
+
+.dropdown ul li:hover {
+  background-color: #0e0d0d;
+  color: blue;
+}
+
+.active {
+  border: 2px solid  rgb(31, 72, 89); 
+  border-radius: 5px;
+  color: blue;
+ 
+}
+

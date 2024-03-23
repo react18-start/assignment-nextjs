@@ -1,0 +1,53 @@
+.card{
+    display: block;
+    justify-content: space-between;
+    margin-top: 60px;
+    height: auto;
+    padding-right: 20px;
+}
+.card:first-of-type{
+    padding-left: 20px;
+
+}
+
+img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+button{
+    width: 55px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: rgb(71, 76, 82);
+    color: rgba(24, 235, 254, 1);
+    border-radius: 5px;
+    border: 0.5px;
+}
+
+h6{
+    font-style: Aeonik;
+    font-weight: 250;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.pgh{
+    font-style: Aeonik;
+    font-weight: 250;
+    font-size: 15px;
+    margin-top: 5px;
+    line-height: 26px;
+}
+
+@media screen and (min-width:1600px) {
+    .card{
+        padding-right: 40px;
+    }
+    .card:first-of-type{
+        padding-left: 40px;
+    }  
+}

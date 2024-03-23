@@ -1,0 +1,24 @@
+.USAcomponent {
+    position: relative;
+    display: inline-block;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the horizontal rule */
+  .border-line {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
